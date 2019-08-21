@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title>PORTFOLIO</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/main.css" />
@@ -99,7 +99,7 @@
 									</div>
 								</div>
 								<ul class="loginbtn">
-									<li><a class="button small" href="#intro">View</a></li>
+									<li><a class="button small" href="${pageContext.request.contextPath}/kdh/kdhPofol.do">View</a></li>
 									<li style="margin-left: 45px;"><a class="button small" onclick="edit()" style="">Edit</a></li>
 								</ul>
 							</article>
