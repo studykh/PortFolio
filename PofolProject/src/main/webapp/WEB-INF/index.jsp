@@ -106,7 +106,13 @@
 
 						<!-- Work -->
 							<article id="work">
-								<h2 class="major">안은서</h2>
+								<div style="overflow:hidden">
+									<h2 class="major" style="float:left">안은서</h2>
+									<div class="edit" id="edit" style="float:right">
+										<a class="button" href="#" style="float:right">go</a>
+										<input type="password" name="demo-name" id="demo-name" value="" placeholder="Password" style="float:right"/>
+									</div>
+								</div>
 								<div style="overflow: hidden;margin:10px">
 									<div style="height:100%; width:49.99999%; display: inline-block; float: left;">
 										<img src="${pageContext.request.contextPath}/resources/images/man.png" style="width:100%;padding-right: 25px"/>
@@ -116,14 +122,20 @@
 									</div>
 								</div>
 								<ul class="loginbtn">
-									<li><a href="#intro">View</a></li>
-									<li style="margin-left: 45px;"><a href="#intro">Edit</a></li>
+									<li><a class="button small" href="#intro">View</a></li>
+									<li style="margin-left: 45px;"><a class="button small" onclick="edit()" style="">Edit</a></li>
 								</ul>
 							</article>
 
 						<!-- About -->
 							<article id="about">
-								<h2 class="major">원영재</h2>
+								<div style="overflow:hidden">
+									<h2 class="major" style="float:left">원영재</h2>
+									<div class="edit" id="edit" style="float:right">
+										<a class="button" href="#" style="float:right">go</a>
+										<input type="password" name="demo-name" id="demo-name" value="" placeholder="Password" style="float:right"/>
+									</div>
+								</div>
 								<div style="overflow: hidden;margin:10px">
 									<div style="height:100%; width:49.99999%; display: inline-block; float: left;">
 										<img src="${pageContext.request.contextPath}/resources/images/man.png" style="width:100%;padding-right: 25px"/>
@@ -133,14 +145,20 @@
 									</div>
 								</div>
 								<ul class="loginbtn">
-									<li><a href="#intro">View</a></li>
-									<li style="margin-left: 45px;"><a href="#intro">Edit</a></li>
+									<li><a class="button small" href="#intro">View</a></li>
+									<li style="margin-left: 45px;"><a class="button small" onclick="edit()" style="">Edit</a></li>
 								</ul>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
-								<h2 class="major">전미정</h2>
+								<div style="overflow:hidden">
+									<h2 class="major" style="float:left">전미정</h2>
+									<div class="edit" id="edit" style="float:right">
+										<a class="button" href="#" style="float:right">go</a>
+										<input type="password" name="demo-name" id="demo-name" value="" placeholder="Password" style="float:right"/>
+									</div>
+								</div>
 								<div style="overflow: hidden;margin:10px">
 									<div style="height:100%; width:49.99999%; display: inline-block; float: left;">
 										<img src="${pageContext.request.contextPath}/resources/images/man.png" style="width:100%;padding-right: 25px"/>
@@ -150,8 +168,8 @@
 									</div>
 								</div>
 								<ul class="loginbtn">
-									<li><a href="">View</a></li>
-									<li style="margin-left: 45px;"><a onclick="edit()" style="">Edit</a></li>
+									<li><a class="button small" href="#intro">View</a></li>
+									<li style="margin-left: 45px;"><a class="button small" onclick="edit()" style="">Edit</a></li>
 								</ul>
 							</article>
 
@@ -422,7 +440,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				}
 				$('html').click(function(e) {   
 					if(!$(e.target).hasClass("edit")) {
-						$('#edit').css({
+						$('.edit').css({
 							"display":"none"
 						});
 					}
