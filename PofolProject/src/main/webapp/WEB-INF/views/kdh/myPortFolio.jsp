@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<a href="${pageContext.request.contextPath}/index.do" class="logo"><span>메인으로...</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
