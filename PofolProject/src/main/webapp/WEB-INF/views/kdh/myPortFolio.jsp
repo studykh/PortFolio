@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
@@ -62,41 +62,41 @@
 							<section id="one" class="tiles">
 								<article>
 									<span class="image">
-										<img src="${pageContext.request.contextPath}/resources/kdh/images/pic01.jpg" alt="" />
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/idea.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Aliquam</a></h3>
-										<p>Ipsum dolor sit amet</p>
+										<h3><a href="landing.html" class="link">이력</a></h3>
+										<p>자격증 수상경력 보유기술</p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="${pageContext.request.contextPath}/resources/kdh/images/pic02.jpg" alt="" />
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/laptop.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Tempus</a></h3>
-										<p>feugiat amet tempus</p>
+										<h3><a href="landing.html" class="link">직무능력소개</a></h3>
+										<p>직무능력 및 자기 소개</p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="${pageContext.request.contextPath}/resources/kdh/images/pic03.jpg" alt="" />
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/startup.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Magna</a></h3>
-										<p>Lorem etiam nullam</p>
+										<h3><a href="landing.html" class="link">Semi Project</a></h3>
+										<p>재능 거래 사이트</p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="${pageContext.request.contextPath}/resources/kdh/images/pic04.jpg" alt="" />
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/portfolio.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Ipsum</a></h3>
-										<p>Nisl sed aliquam</p>
+										<h3><a href="landing.html" class="link">Final Project</a></h3>
+										<p>자료관리 웹 서비스</p>
 									</header>
 								</article>
-								<article>
+								<!-- <article>
 									<span class="image">
 										<img src="${pageContext.request.contextPath}/resources/kdh/images/pic05.jpg" alt="" />
 									</span>
@@ -113,7 +113,7 @@
 										<h3><a href="landing.html" class="link">Etiam</a></h3>
 										<p>Feugiat amet tempus</p>
 									</header>
-								</article>
+								</article> -->
 							</section>
 
 						<!-- Two -->
