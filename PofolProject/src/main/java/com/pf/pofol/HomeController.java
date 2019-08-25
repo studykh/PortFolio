@@ -23,10 +23,28 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/index.do", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		
-		
+	public String index() {
 		return "index";
+	}
+	
+	@RequestMapping(value = "/resume.do", method = RequestMethod.GET)
+	public String resume() {
+		return "kdh/resume";
+	}
+	
+	@RequestMapping(value = "/introduce.do", method = RequestMethod.GET)
+	public String introduce() {
+		return "kdh/introduce";
+	}
+	
+	@RequestMapping(value = "/semi.do", method = RequestMethod.GET)
+	public String semi() {
+		return "kdh/semiProject";
+	}
+	
+	@RequestMapping(value = "/final.do", method = RequestMethod.GET)
+	public String finalProject() {
+		return "kdh/finalProject";
 	}
 	
 }
