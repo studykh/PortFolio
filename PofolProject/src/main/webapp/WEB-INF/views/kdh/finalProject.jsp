@@ -46,14 +46,14 @@
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
-								<img src="${pageContext.request.contextPath}/resources/kdh/images/pic07.jpg" alt="" />
+								<img src="${pageContext.request.contextPath}/resources/kdh/images/portfolio.png" alt="" />
 							</span>
 							<header class="major">
-								<h1>Landing</h1>
+								<h1>Final Project</h1>
 							</header>
 							<div class="content">
-								<p>Lorem ipsum dolor sit amet nullam consequat<br />
-								sed veroeros. tempus adipiscing nulla.</p>
+								<p style="font-size:0.8em">프로젝트 일정<br />
+								19.07.28 ~ 19.08.14</p>
 							</div>
 						</div>
 					</section>
@@ -61,62 +61,359 @@
 				<!-- Main -->
 					<div id="main">
 
+						<style>
+							.tmiComment{
+								list-style:none;padding-left:0;text-align:left
+							}
+							.tmiComment>li>h4{
+								margin-bottom:0.5em;
+							}
+							
+						</style>
+						
 						<!-- One -->
 							<section id="one">
 								<div class="inner">
-									<header class="major">
-										<h2>Sed amet aliquam</h2>
+									<header class="major" style="margin-bottom:0em">
+										<h2>NEST</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+									<p>개인 자료 저장소 + 클라우드 기능을 제공하는 공간, 둥지(NEST)</p>
+									<div style="width:100%;text-align:center">
+										<div style="width:24%;border:1px solid #fff;padding:15px 20px;display:inline-block;">
+											<div style="width:100%;text-align:center">
+												<img src="${pageContext.request.contextPath}/resources/kdh/images/user.png" style="width:80px"/>
+												<h3>회원 관련 기능</h3>
+											</div>
+											<div style="width:100%">
+												<ul class="tmiComment">
+													<li><h5>- 회원가입(메일인증 必)</h5></li>
+													<li><h5>- ID / PWD 찾기</h5></li>
+													<li><h5 style="color:transparent">- 1:1 문의 작성</h5></li>
+													<li><h5 style="color:transparent">- 1:1 문의 작성</h5></li>
+												</ul>
+											</div>
+										</div>
+										<div style="width:24%;border:1px solid #fff;padding:15px 20px;display:inline-block;">
+											<div style="width:100%;text-align:center">
+												<img src="${pageContext.request.contextPath}/resources/kdh/images/hand.png" style="width:80px"/>
+												<h3>노트</h3>
+											</div>
+											<div style="width:100%">
+												
+												<ul class="tmiComment">
+													<li><h5>- 노트 작성(사진,파일첨부)</h5></li>
+													<li><h5>- 템플릿 적용 / 커스터마이징</h5></li>
+													<li><h5>- 휴지통 보내기 / 복원</h5></li>
+													<li><h5>- 구매 관리</h5></li>													
+												</ul>
+											</div>
+										</div>
+										<div style="width:24%;border:1px solid #fff;padding:15px 20px;display:inline-block;">
+											<div style="width:100%;text-align:center">
+												<img src="${pageContext.request.contextPath}/resources/kdh/images/money-bag.png" style="width:80px"/>
+												<h3>스페이스</h3>
+											</div>
+											<div style="width:100%">
+												
+												<ul class="tmiComment">
+													<li><h5>- 스페이스 생성</h5></li>
+													<li><h5>- 노트 조회 / 보기</h5></li>
+													<li><h5>- 중요 노트 고정하기</h5></li>
+													<li><h5>- 실시간 채팅 서비스</h5></li>
+												</ul>
+											</div>
+										</div>
+										<div style="width:24%;border:1px solid #fff;padding:15px 20px;display:inline-block;">
+											<div style="width:100%;text-align:center">
+												<img src="${pageContext.request.contextPath}/resources/kdh/images/settings.png" style="width:80px"/>
+												<h3>비즈니스 관리</h3>
+											</div>
+											<div style="width:100%">
+												
+												<ul class="tmiComment">
+													<li><h5>- 비즈니스 명 변경</h5></li>
+													<li><h5>- 멤버 관리</h5></li>
+													<li><h5>- 서비스 결제</h5></li>
+													<li><h5 style="color:transparent;">-</h5></li>
+												</ul>
+											</div>
+										</div>
+									</div>
 								</div>
+								
+								
 							</section>
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.html" class="image">
-										<img src="${pageContext.request.contextPath}/resources/kdh/images/pic08.jpg" alt="" data-position="center center" />
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/1.png" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Orci maecenas</h3>
+												<h3>랜딩 페이지</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+											
+											<ul style="list-style:decimal;">
+												<li>서비스 검색 기능</li>
+												<li>카테고리 별 판매 게시판 이동</li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="${pageContext.request.contextPath}/resources/kdh/images/pic09.jpg" alt="" data-position="top center" />
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/2.png" alt="" data-position="top center" />
 									</a>
 									<div class="content">
-										<div class="inner">
+										<div class="inner" style="">
 											<header class="major">
-												<h3>Rhoncus magna</h3>
+												<h3>로그인</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+											<ul style="list-style:decimal;">
+												<li>ID / PWD 유효성 체크(Ajax)</li>
+												<br />
+												<li style="list-style:none"><a href="generic.html" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="${pageContext.request.contextPath}/resources/kdh/images/pic10.jpg" alt="" data-position="25% 25%" />
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/3.png" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Sed nunc ligula</h3>
+												<h3>랜딩 페이지</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+											
+											<ul style="list-style:decimal;">
+												<li>서비스 검색 기능</li>
+												<li>카테고리 별 판매 게시판 이동</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/4.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner" style="">
+											<header class="major">
+												<h3>로그인</h3>
+											</header>
+											<ul style="list-style:decimal;">
+												<li>ID / PWD 유효성 체크(Ajax)</li>
+												<br />
+												<li style="list-style:none"><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/5.png" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>랜딩 페이지</h3>
+											</header>
+											
+											<ul style="list-style:decimal;">
+												<li>서비스 검색 기능</li>
+												<li>카테고리 별 판매 게시판 이동</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/6.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner" style="">
+											<header class="major">
+												<h3>로그인</h3>
+											</header>
+											<ul style="list-style:decimal;">
+												<li>ID / PWD 유효성 체크(Ajax)</li>
+												<br />
+												<li style="list-style:none"><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/7.png" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>랜딩 페이지</h3>
+											</header>
+											
+											<ul style="list-style:decimal;">
+												<li>서비스 검색 기능</li>
+												<li>카테고리 별 판매 게시판 이동</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/8.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner" style="">
+											<header class="major">
+												<h3>로그인</h3>
+											</header>
+											<ul style="list-style:decimal;">
+												<li>ID / PWD 유효성 체크(Ajax)</li>
+												<br />
+												<li style="list-style:none"><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/9.png" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>랜딩 페이지</h3>
+											</header>
+											
+											<ul style="list-style:decimal;">
+												<li>서비스 검색 기능</li>
+												<li>카테고리 별 판매 게시판 이동</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/10.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner" style="">
+											<header class="major">
+												<h3>로그인</h3>
+											</header>
+											<ul style="list-style:decimal;">
+												<li>ID / PWD 유효성 체크(Ajax)</li>
+												<br />
+												<li style="list-style:none"><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/11.png" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>랜딩 페이지</h3>
+											</header>
+											
+											<ul style="list-style:decimal;">
+												<li>서비스 검색 기능</li>
+												<li>카테고리 별 판매 게시판 이동</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/12.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner" style="">
+											<header class="major">
+												<h3>로그인</h3>
+											</header>
+											<ul style="list-style:decimal;">
+												<li>ID / PWD 유효성 체크(Ajax)</li>
+												<br />
+												<li style="list-style:none"><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/13.png" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>랜딩 페이지</h3>
+											</header>
+											
+											<ul style="list-style:decimal;">
+												<li>서비스 검색 기능</li>
+												<li>카테고리 별 판매 게시판 이동</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/14.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner" style="">
+											<header class="major">
+												<h3>로그인</h3>
+											</header>
+											<ul style="list-style:decimal;">
+												<li>ID / PWD 유효성 체크(Ajax)</li>
+												<br />
+												<li style="list-style:none"><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/15.png" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>랜딩 페이지</h3>
+											</header>
+											
+											<ul style="list-style:decimal;">
+												<li>서비스 검색 기능</li>
+												<li>카테고리 별 판매 게시판 이동</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="${pageContext.request.contextPath}/resources/kdh/images/final/16.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner" style="">
+											<header class="major">
+												<h3>로그인</h3>
+											</header>
+											<ul style="list-style:decimal;">
+												<li>ID / PWD 유효성 체크(Ajax)</li>
+												<br />
+												<li style="list-style:none"><a href="generic.html" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
